@@ -1,0 +1,12 @@
+zd_ip 172.16.20.3 
+zduser admin
+zdpass video54java 
+tftp_addr 172.16.110.124 
+http_addr 172.16.110.124 
+monitor_interval 1800
+tftp_dir /opt/tftpboot/
+working_dir /home/rms/density_rms
+report_dir /var/www/densitystatus/dailystatus
+html_dir densitystatus/dailystatus
+apstats_dir /var/www/densitystatus/apstats
+clientstats_dir  /var/www/densitystatus/clientstats
